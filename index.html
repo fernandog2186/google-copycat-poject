@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>title</title>
   <style type="text/css">
-
+    body {
+        background-color: white;
+    }
+    
      .placement{
        /*display: block;*/
        /*width: 15%;*/
@@ -12,9 +15,10 @@
        padding-top:109px;
        height: 92px;
        width: 272px;
-       left: 40%;
+       left: 42%;
        top: 7%;
      }
+     
      #Button{
        cursor: pointer;
        text-align: center;
@@ -26,8 +30,8 @@
        font-family: arial,sans-serif;
        font-size: 14px;
        position: fixed;
-       left: 38%;
-       top: 40%;
+       left: 40%;
+       top: 44%
      }
      #Button2{
        cursor: pointer;
@@ -40,9 +44,43 @@
        font-family: arial,sans-serif;
        font-size: 14px;
        position: fixed;
-       left: 48%;
-       top: 40%;
+       left: 50%;
+       top: 44%;
      }
+     #Button3 {
+       text-align: center;
+       font-weight: bold;
+       color: white;
+       background-color: rgb(65,122,243);
+       width: 70px;
+       height: 30px;
+       padding-left: 12px;
+       padding-right: 12px;
+       font-family: arial,sans-serif;
+       font-size: 13px;
+       position: fixed;
+       left: 95%;
+       top: 2%;
+     }
+     .bar {
+         border-radius: 24px;
+         box-shadow: none;
+         height: 40px;
+         width: 582px;
+         position: fixed;
+         top: 35%;
+         left: 33%;
+     }
+    
+     /*.bardiv {*/
+     /*    border: 1px solid black;*/
+     /*    border-radius: 24px;*/
+     /*    height: 40px;*/
+     /*    width: 582px;*/
+     /*    position: fixed;*/
+     /*    top: 39%;*/
+     /*    left: 30%;*/
+     /*}*/
   </style>
   </head>
   <body>
@@ -53,5 +91,9 @@
 
     <button id="Button">Google Button</button>
     <button id="Button2">I'm Feeling Lucky</button>
+    <button id="Button3">Sign in</button>
+    <div id="bardiv">
+    <input type="text" class="bar">
+    </div>
   </body>
 </html>
